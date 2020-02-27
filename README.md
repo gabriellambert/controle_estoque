@@ -9,7 +9,7 @@ Controle de estoque
 * Ative a virtualenv
 * Instale as dependências
 * Rode as migrações
-
+```
 git clone https://github.com/gabriellambert/controle_estoque.git
 cd controle_estoque
 python3 -m venv venv
@@ -17,3 +17,4 @@ python3 -m venv venv
 pip install -r requirements.txt
 python contrib/env_gen.py
 python manage.py migrate
+```
